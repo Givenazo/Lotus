@@ -27,8 +27,8 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
         $message = $_POST['form_message'];
         
         $botcheck = $_POST['form_botcheck'];
-        $toemail = 'spam.thememascot@gmail.com'; // Your Email Address
-        $toname = 'ThemeMascot';                // Receiver Name
+        $toemail = 'info@lotushelp.com'; // Your Email Address
+        $toname = 'LotusHelp';                // Receiver Name
 
         if( $botcheck == '' ) {
 
